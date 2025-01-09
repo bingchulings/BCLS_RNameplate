@@ -1,1 +1,23 @@
-/* add code */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+.info-box {
+  display: none;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -100%);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+}
+.job {
+  font-size: 14px;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
